@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/youLove/youLove"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50,
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#00aaff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": " 首页"
+      },
+      {
+        "pagePath": "pages/youLove/youLove",
+        "text": "心意"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
